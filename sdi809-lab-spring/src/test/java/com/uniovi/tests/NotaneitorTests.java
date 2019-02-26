@@ -12,8 +12,8 @@ import org.junit.runners.*;
 public class NotaneitorTests {
 	// En Windows (Debe ser la versión 65.0.1 y desactivar las actualizacioens
 	// automáticas)):
-	 static String PathFirefox64 = "C:\\Program Files\\MozillaFirefox\\firefox.exe";
-	 static String Geckdriver022 = "C:\\Path\\geckodriver024win64.exe";
+	 static String PathFirefox64 = "C:\\Program Files\\Mozilla Firefox\\firefox.exe";
+	 static String Geckdriver022 = "D:\\Diego Trapiello\\Escritorio\\Tercer Año\\SDI\\Practica 5\\PL-SDI-Sesión5-material\\geckodriver024win64.exe";
 	// En MACOSX (Debe ser la versión 65.0.1 y desactivar las actualizacioens
 	// automáticas):
 	// static String PathFirefox65 =
@@ -57,6 +57,6 @@ public class NotaneitorTests {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 }
